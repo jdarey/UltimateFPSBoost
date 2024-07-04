@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pobieranie pliku po wpisaniu klucza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pobieranie pliku po wpisaniu klucza</h1>
+        <form id="downloadForm">
+            <label for="keyInput">Wprowadź klucz dostępu:</label>
+            <input type="text" id="keyInput" name="keyInput" required>
+            <button type="submit">Pobierz plik</button>
+        </form>
+        <div id="downloadLinkContainer" style="display: none;">
+            <a id="downloadLink" href="#" download> Kliknij tutaj, aby pobrać plik</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
